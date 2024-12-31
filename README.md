@@ -13,7 +13,7 @@ git lfs install
 git clone https://huggingface.co/hexgrad/Kokoro-82M
 ```
 ```
-https://github.com/NeuralFalconYT/kokoro-tts.git
+git clone https://github.com/NeuralFalconYT/kokoro-tts.git
 ```
 ```
 robocopy "kokoro-tts" "Kokoro-82M" /e /r:0
