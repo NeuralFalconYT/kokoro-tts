@@ -1,8 +1,3 @@
-import phonemizer
-import re
-import torch
-import shutil
-
 from phonemizer.backend.espeak.wrapper import EspeakWrapper
 _ESPEAK_LIBRARY = 'C:\Program Files\eSpeak NG\libespeak-ng.dll'
 EspeakWrapper.set_library(_ESPEAK_LIBRARY)
@@ -14,6 +9,12 @@ if os.path.exists(temp_folder):
     except:
         pass
 os.makedirs(temp_folder, exist_ok=True)
+
+
+import phonemizer
+import re
+import torch
+import shutil
 
 def split_num(num):
     num = num.group()
