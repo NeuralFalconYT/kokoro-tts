@@ -1,10 +1,5 @@
 # kokoro-tts
-```
-python -m venv myenv
-```
-```
-myenv\Scripts\activate
-```
+
 ```
 git lfs install
 ```
@@ -20,6 +15,14 @@ robocopy "kokoro-tts" "Kokoro-82M" /e /r:0
 ```
 cd Kokoro-82M
 ```
+
+```
+python -m venv myenv
+```
+```
+myenv\Scripts\activate
+```
+
 ```
 nvcc --version
 ```
