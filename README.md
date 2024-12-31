@@ -7,6 +7,9 @@ On Windows:
 myenv\Scripts\activate
 ```
 ```
+git lfs install
+```
+```
 git clone https://huggingface.co/hexgrad/Kokoro-82M
 ```
 ```
