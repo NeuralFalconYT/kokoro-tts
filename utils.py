@@ -75,7 +75,8 @@ def clamp_speed(speed):
     if not isinstance(speed, float) and not isinstance(speed, int):
         return 1
     elif speed < 0.5:
-        return 0.5
+        # return 0.5
+        return speed
     elif speed > 2:
         return 2
     return speed
