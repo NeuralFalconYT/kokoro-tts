@@ -34,11 +34,17 @@ def text_to_speech(text, voice_name, speed, trim, pad_between_segments, remove_s
 
 import gradio as gr
 
-voice_list = [
-    'af',  # Default voice is a 50-50 mix of af_bella & af_sarah
-    'af_bella', 'af_sarah', 'am_adam', 'am_michael',
-    'bf_emma', 'bf_isabella', 'bm_george', 'bm_lewis',
-]
+# voice_list = [
+#     'af',  # Default voice is a 50-50 mix of af_bella & af_sarah
+#     'af_bella', 'af_sarah', 'am_adam', 'am_michael',
+#     'bf_emma', 'bf_isabella', 'bm_george', 'bm_lewis',
+# ]
+
+import os
+voice_list=[]
+for i in os.listdir("./voices"):
+    voice_list.append(i.replace(".pt",""))   
+# print(voice_list)     
 
 def toggle_autoplay(autoplay):
     return gr.Audio(interactive=False, label='Output Audio', autoplay=autoplay)
