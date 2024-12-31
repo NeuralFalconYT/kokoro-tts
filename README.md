@@ -1,5 +1,5 @@
 # Kokoro-TTS 
-**Note:** This is not the official repository. This tutorial explains how to run [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) on Windows and Google Colab.<br>
+**Note:** This is not the official repository. This tutorial explains how to run [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) on Windows and Google Colab.<br><br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/kokoro-tts/blob/main/kokoro_TTS.ipynb) <br>
 [![hfspace](https://img.shields.io/badge/🤗-Space%20demo-yellow)](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) <br>
 ### Windows Installation
