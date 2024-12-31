@@ -2,7 +2,6 @@
 ```
 python -m venv myenv
 ```
-On Windows:
 ```
 myenv\Scripts\activate
 ```
@@ -27,6 +26,9 @@ nvcc --version
 Visit https://pytorch.org/get-started/locally/ and install torch accoding to your cuda version for example
 ```
 pip install torch --index-url https://download.pytorch.org/whl/cu118
+```
+```
+pip install -r requirements.txt
 ```
 ```
 https://github.com/espeak-ng/espeak-ng/releases/tag/1.51
