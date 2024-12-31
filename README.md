@@ -1,5 +1,7 @@
 # kokoro-tts
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/kokoro-tts/blob/main/kokoro_TTS.ipynb) <br>
 
+### Windows Installation
 ```
 git lfs install
 ```
