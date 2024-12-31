@@ -101,7 +101,7 @@
  python cli.py
  ```
 
-[Click to play Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
+[Click to Download Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
 
 https://github.com/user-attachments/assets/1f4d8713-c59d-4b4d-aec4-e88e08c6dbe0
 
