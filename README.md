@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/kokoro-tts/blob/main/kokoro_TTS.ipynb) <br>
 [![hfspace](https://img.shields.io/badge/🤗-Space%20demo-yellow)](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) <br>
 ### Windows Installation
-
+My Python Version is 3.10
 1. **Install Git LFS:**
    ```
    git lfs install
@@ -103,8 +103,10 @@
 
 [Click to Download Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
 
+
 https://github.com/user-attachments/assets/1f4d8713-c59d-4b4d-aec4-e88e08c6dbe0
 
+![app](https://github.com/user-attachments/assets/d98a4d72-00a6-43ff-94bf-977a7766c6d1)
 
 #### Credit:  
 [Kokoro HuggingFace](https://huggingface.co/hexgrad/Kokoro-82M)
