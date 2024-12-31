@@ -48,3 +48,6 @@ ESPEAK_LIBRARY: C:\Program Files\eSpeak NG\libespeak-ng.dll
 ```
 espeak-ng --version
 ```
+
+#### Credit:
+[Kokoro HuggingFace](https://huggingface.co/hexgrad/Kokoro-82M)
