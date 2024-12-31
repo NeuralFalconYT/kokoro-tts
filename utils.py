@@ -98,6 +98,7 @@ def trim_if_needed(out, trim):
     b = int(len(out)-(len(out)-b)*trim)
     return out[a:b]    
 
+#Above code copied from https://huggingface.co/spaces/hexgrad/Kokoro-TTS/blob/main/app.py
 
 def get_random_file_name(output_file, temp_folder="./kokoro_audio"):
     if output_file=="":
