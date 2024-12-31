@@ -17,7 +17,9 @@ robocopy "kokoro-tts" "Kokoro-82M" /e /r:0
 ```
 cd Kokoro-82M
 ```
-
+```
+python make_bat.py
+```
 ```
 python -m venv myenv
 ```
@@ -35,9 +37,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 ```
 pip install -r requirements.txt
 ```
-```
-python make_bat.py
-```
+
 ```
 https://github.com/espeak-ng/espeak-ng/releases/tag/1.51
 ```
