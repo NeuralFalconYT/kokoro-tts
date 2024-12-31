@@ -1,0 +1,9 @@
+phonemizer
+scipy
+munch
+transformers
+nltk
+click
+simpleaudio
+gradio
+# torch
