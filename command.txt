@@ -1,0 +1,3 @@
+myenv\Scripts\activate
+python cli.py
+python app.py
