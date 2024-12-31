@@ -3,7 +3,7 @@ scipy>=1.14.1
 munch>=4.0.0
 transformers>=4.47.1
 click>=8.1.8
-simpleaudio>=1.0.4
 librosa>=0.10.2
+simpleaudio>=1.0.4
 gradio>=5.9.1
 # torch
