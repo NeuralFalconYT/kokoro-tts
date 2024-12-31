@@ -9,6 +9,13 @@ MODEL = build_model('kokoro-v0_19.pth', device)
 print("Model loaded successfully.")
 
 
+
+# import os
+# available_voices=[]
+# for i in os.listdir("./voices"):
+#     available_voices.append(i.replace(".pt",""))  
+#  print(available_voices)   
+
 available_voices= [
     'af', # Default voice is a 50-50 mix of Bella & Sarah
     'af_bella', 'af_sarah', 'am_adam', 'am_michael',
