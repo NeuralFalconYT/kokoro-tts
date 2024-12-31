@@ -40,6 +40,9 @@ https://github.com/espeak-ng/espeak-ng/releases/tag/1.51
 Download and install espeak-ng-X64.msi
 ```
 ```
-PHONEMIZER_ESPEAK_PATH: c:\Program Files\eSpeak NG
-PHONEMIZER_ESPEAK_LIBRARY: c:\Program Files\eSpeak NG\libespeak-ng.dll
+ESPEAK_PATH: C:\Program Files\eSpeak NG
+ESPEAK_LIBRARY: C:\Program Files\eSpeak NG\libespeak-ng.dll
+```
+```
+espeak-ng --version
 ```
