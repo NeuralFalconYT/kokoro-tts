@@ -11,6 +11,7 @@ if os.path.exists(temp_folder):
 os.makedirs(temp_folder, exist_ok=True)
 
 
+#copied from https://huggingface.co/spaces/hexgrad/Kokoro-TTS/blob/main/app.py
 import phonemizer
 import re
 import torch
