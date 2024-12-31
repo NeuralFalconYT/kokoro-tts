@@ -23,19 +23,23 @@ def tts_maker(text,voice_name="af_bella",speed = 0.8,trim=0,pad_between=0,save_p
 
 
 
-voice_dict = {
-    1: 'af',  # Default voice is a 50-50 mix of af_bella & af_sarah
-    2: 'af_bella',
-    3: 'af_sarah',
-    4: 'am_adam',
-    5: 'am_michael',
-    6: 'bf_emma',
-    7: 'bf_isabella',
-    8: 'bm_george',
-    9: 'bm_lewis',
-}
+# voice_dict = {
+#     1: 'af',  # Default voice is a 50-50 mix of af_bella & af_sarah
+#     2: 'af_bella',
+#     3: 'af_sarah',
+#     4: 'am_adam',
+#     5: 'am_michael',
+#     6: 'bf_emma',
+#     7: 'bf_isabella',
+#     8: 'bm_george',
+#     9: 'bm_lewis',
+# }
 
-
+import os
+voice_dict={}
+for index, file in enumerate(os.listdir('./voices')):
+    voice_dict[index+1]=file.replace('.pt','')
+      
 def clear_screen():
     # Clear the terminal screen based on the operating system
     os.system('cls' if os.name == 'nt' else 'clear')
