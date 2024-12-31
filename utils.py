@@ -1,4 +1,4 @@
-from kokoro import normalize_text,phonemize,generate
+from kokoro_copy import normalize_text,phonemize,generate
 import re
 import librosa
 import os
