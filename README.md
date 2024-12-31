@@ -36,6 +36,9 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 ```
+python make_bat.py
+```
+```
 https://github.com/espeak-ng/espeak-ng/releases/tag/1.51
 ```
 ```
@@ -49,5 +52,19 @@ ESPEAK_LIBRARY: C:\Program Files\eSpeak NG\libespeak-ng.dll
 espeak-ng --version
 ```
 
+To run the gradio app click on 
+```
+run_app.bat
+```
+To run on command line click on 
+```
+run_cli.bat
+```
+or,
+```
+myenv\Scripts\activate
+python cli.py
+python app.py
+```
 #### Credit:
 [Kokoro HuggingFace](https://huggingface.co/hexgrad/Kokoro-82M)
