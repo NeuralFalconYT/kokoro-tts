@@ -112,11 +112,16 @@ import click
 @click.option("--share", is_flag=True, default=False, help="Enable sharing of the interface.")
 def main(debug, share):
     demo.queue().launch(debug=debug, share=share)
-    # demo.queue().launch(debug=debug, share=share,server_port=8081)
+    #Run on local network
+    # laptop_ip="192.168.0.30"
+    # port=8080
+    # demo.queue().launch(debug=debug, share=share,server_name=laptop_ip,server_port=port)
+
 if __name__ == "__main__":
     main()    
 
-#Use in Other Projects
+
+##For client side
 # from gradio_client import Client
 # import shutil
 # import os
