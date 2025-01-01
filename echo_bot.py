@@ -61,7 +61,7 @@ while True:
         console.print("[bold magenta]Say 'change voice' to change the voice or say 'exit' to quit.[/bold magenta]")
         with sr.Microphone() as source:
             recognizer.adjust_for_ambient_noise(source, duration=calibration_duration)
-            console.print("[bold cyan]Listening...[/bold cyan]")
+            console.print("[bold cyan]Say Something...[/bold cyan]")
             audio_data = recognizer.listen(source, timeout=timeout, phrase_time_limit=phrase_time_limit)
 
             # Recognize speech
