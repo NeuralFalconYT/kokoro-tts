@@ -40,7 +40,7 @@ async def get_voices():
     """Returns a list of available voices."""
     return {"voices": voice_list}
 
-@app.post("/text-to-speech", summary="Generate TTS audio")
+@app.post("/tts", summary="Generate TTS audio")
 async def generate_tts(request: TTSRequest):
     """Generates speech audio from the provided text."""
     # Generate file name based on the input text
@@ -64,7 +64,7 @@ async def generate_tts(request: TTSRequest):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8082)
-    ## 'ifconfig' to get your laptop ip address
+    ## ifconfig to get your laptop ip address
     # laptop_ip_address = "192.168.0.30"
     # uvicorn.run(app, host=laptop_ip_address, port=8080)
     
