@@ -78,7 +78,7 @@ while True:
             clear_screen()
 
             # Use rich styling for the input text before generating audio
-            console.print(f"Generating audio for: [bold magenta]{text}[/bold magenta]", style="bold green")
+            console.print(f"Generating audio for: [bold white]{text}[/bold white]", style="bold green")
             
             audio_path = tts_maker(text, voice_name=voice_name)  # Replace with your function
             play_audio(audio_path)  # Replace with your function
