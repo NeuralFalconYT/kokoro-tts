@@ -23,3 +23,14 @@ with open('run_cli.bat', 'w') as bat_file:
     bat_file.write(bat_content_cli)
 
 print("The 'run_cli.bat' file has been created.")
+
+# Batch content for running get_latest_voices.py
+bat_content_voices = '''@echo off
+call myenv\\Scripts\\activate
+@python.exe get_latest_voices.py %*
+@pause
+'''
+# Save the content to run_get_latest_voices.bat
+with open('get_new_voice.bat', 'w') as bat_file:
+    bat_file.write(bat_content_voices)
+print("The 'get_new_voice.bat' file has been created.")
