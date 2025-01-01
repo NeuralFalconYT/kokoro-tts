@@ -105,6 +105,12 @@ My Python Version is 3.10.9
    ```
    get_new_voice.bat
    ```
+ **Use FastAPI server:**
+   ```
+   myenv\Scripts\activate
+   python server.py
+   http://127.0.0.1:8082/docs
+   ```
 **Or, manually running the following commands:**
  ```
  myenv\Scripts\activate
@@ -112,6 +118,7 @@ My Python Version is 3.10.9
  python cli.py #run in terminal
  python echo_bot.py #Say Something and it will repeat that sentence
  python test.py # Understand the funtion
+ python server.py #To Use as a server
  ```
 
 [Click to Download Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
@@ -120,6 +127,8 @@ My Python Version is 3.10.9
 
 
 https://github.com/user-attachments/assets/1f4d8713-c59d-4b4d-aec4-e88e08c6dbe0
+
+![api](https://github.com/user-attachments/assets/43380ad3-da72-4680-856e-52c57c7faf40)
 
 
 #### Credit:  
