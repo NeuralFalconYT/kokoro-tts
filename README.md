@@ -33,7 +33,7 @@ My Python Version is 3.10.9
    ```
    python make_bat.py
    ```
-   This script automatically creates the necessary `.bat` files (`run_app.bat`, `run_cli.bat`) to simplify the process of running the application.
+   This script automatically creates the necessary `.bat` files (`run_app.bat`, `run_cli.bat`,`run_echo_bot.bat`,`get_new_voice.bat`) to simplify the process of running the application.
 
 6. **Create a Python Virtual Environment:**
    ```
@@ -94,16 +94,21 @@ My Python Version is 3.10.9
    ```
    run_cli.bat
    ```
+ **Use Kokoro TTS as a Echo Bot (Say Something and it will repeat that sentence):**
+   ```
+   run_echo_bot.bat
+   ```
  **Download Latest VoicePack:**
-
    ```
    get_new_voice.bat
    ```
 **Or, manually running the following commands:**
  ```
  myenv\Scripts\activate
- python app.py
- python cli.py
+ python app.py #for gradio app
+ python cli.py #run in terminal
+ python echo_bot.py #Say Something and it will repeat that sentence
+ python test.py # Understand the funtion
  ```
 
 [Click to Download Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
