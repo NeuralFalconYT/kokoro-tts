@@ -64,7 +64,7 @@ async def generate_tts(request: TTSRequest):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8082)
-    #ifconfig to get your laptop ip address
+    ## 'ifconfig' to get your laptop ip address
     # laptop_ip_address = "192.168.0.30"
     # uvicorn.run(app, host=laptop_ip_address, port=8080)
     
