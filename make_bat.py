@@ -34,3 +34,14 @@ call myenv\\Scripts\\activate
 with open('get_new_voice.bat', 'w') as bat_file:
     bat_file.write(bat_content_voices)
 print("The 'get_new_voice.bat' file has been created.")
+
+# Batch content for running echo_bot.py
+bat_content_echo = '''@echo off
+call myenv\\Scripts\\activate
+@python.exe echo_bot.py %*
+@pause
+'''
+# Save the content to run_echo_bot.bat
+with open('run_echo_bot.bat', 'w') as bat_file:
+    bat_file.write(bat_content_echo)
+print("The 'run_echo_bot.bat' file has been created.")
