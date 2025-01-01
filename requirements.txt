@@ -7,4 +7,5 @@ librosa>=0.10.2
 simpleaudio>=1.0.4
 gradio>=5.9.1
 rich>=13.9.4
+huggingface-hub>=0.27.0
 # torch
