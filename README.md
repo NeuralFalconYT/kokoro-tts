@@ -94,6 +94,11 @@ My Python Version is 3.10.9
    ```
    run_cli.bat
    ```
+ **Download Latest VoicePack:**
+
+   ```
+   get_new_voice.bat
+   ```
 **Or, manually running the following commands:**
  ```
  myenv\Scripts\activate
