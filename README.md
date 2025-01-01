@@ -95,6 +95,7 @@ My Python Version is 3.10.9
    run_cli.bat
    ```
   Clicking on `run_cli.bat` you can play with kokoro tts voicepack.
+  
  **Use Kokoro TTS as a Echo Bot (Say Something and it will repeat that sentence):**
    ```
    run_echo_bot.bat
