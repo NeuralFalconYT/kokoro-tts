@@ -63,6 +63,7 @@ async def generate_tts(request: TTSRequest):
     return FileResponse(audio_path, media_type="audio/wav", filename=os.path.basename(audio_path))
 
 if __name__ == "__main__":
+    print("Open This address: http://127.0.0.1:8082/docs")
     uvicorn.run(app, host="127.0.0.1", port=8082)
     ## ifconfig to get your laptop ip address
     # laptop_ip_address = "192.168.0.30"
