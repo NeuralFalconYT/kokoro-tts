@@ -69,3 +69,59 @@ if __name__ == "__main__":
     # laptop_ip_address = "192.168.0.30"
     # uvicorn.run(app, host=laptop_ip_address, port=8080)
     
+
+
+
+
+
+##For client side
+# import requests
+# import json
+
+# def tts(
+#     text, 
+#     tts_save_path,
+#     voice_name="af_bella", 
+#     speed=1, 
+#     trim=0, 
+#     pad_between_segments=0, 
+#     remove_silence=True, 
+#     minimum_silence=0.05
+# ):
+#     # Preprocess the text
+#     text = text.strip().replace('\n', ' ')
+
+#     # API request payload
+#     payload = {
+#         "text": text,
+#         "voice_name": voice_name,
+#         "speed": speed,
+#         "trim": trim,
+#         "pad_between_segments": pad_between_segments,
+#         "remove_silence": remove_silence,
+#         "minimum_silence": minimum_silence
+#     }
+
+#     try:
+#         # Send POST request to TTS API
+#         response = requests.post(
+#             url="http://127.0.0.1:8082/tts",
+#             headers={"accept": "application/json", "Content-Type": "application/json"},
+#             data=json.dumps(payload)
+#         )
+
+#         # Check for successful response
+#         response.raise_for_status()
+
+#         # Save the audio file
+#         with open(tts_save_path, "wb") as audio_file:
+#             audio_file.write(response.content)
+
+#         print(f"Audio saved to {tts_save_path}")
+#         return tts_save_path
+#     except requests.exceptions.RequestException as e:
+#         print(f"Error making TTS request: {e}")
+#         return None
+
+# ttspath=tts("Hello, how are you?", "hello.wav")
+# print(ttspath)
