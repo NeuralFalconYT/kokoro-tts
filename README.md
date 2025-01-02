@@ -108,8 +108,10 @@ My Python Version is 3.10.9
    ```
  **Use FastAPI server:**
    ```
-   myenv\Scripts\activate
-   python server.py
+   run_server.bat
+   ```
+   Then Open this url
+   ```
    http://127.0.0.1:8082/docs
    ```
 **Or, manually running the following commands:**
