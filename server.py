@@ -68,25 +68,23 @@ if __name__ == "__main__":
     ## ifconfig to get your laptop ip address
     # laptop_ip_address = "192.168.0.30"
     # uvicorn.run(app, host=laptop_ip_address, port=8080)
-    
 
 
-
-
-
-##For client side
+   
+# #For client side
 # import requests
 # import json
+# import os 
 
 # def tts(
 #     text, 
-#     tts_save_path,
 #     voice_name="af_bella", 
 #     speed=1, 
 #     trim=0, 
 #     pad_between_segments=0, 
 #     remove_silence=True, 
-#     minimum_silence=0.05
+#     minimum_silence=0.05,
+#     folder_path="."
 # ):
 #     # Preprocess the text
 #     text = text.strip().replace('\n', ' ')
@@ -112,8 +110,11 @@ if __name__ == "__main__":
 
 #         # Check for successful response
 #         response.raise_for_status()
-
-#         # Save the audio file
+#         #get file name
+#         data=dict(response.headers)
+#         f_name=data['content-disposition'].replace("attachment; filename=","").replace('"','')
+#         print(f_name)
+#         tts_save_path=f"{folder_path}/{f_name}"
 #         with open(tts_save_path, "wb") as audio_file:
 #             audio_file.write(response.content)
 
@@ -122,6 +123,7 @@ if __name__ == "__main__":
 #     except requests.exceptions.RequestException as e:
 #         print(f"Error making TTS request: {e}")
 #         return None
-
-# ttspath=tts("Hello, how are you?", "hello.wav")
+    
+# os.makedirs("./temp_audio",exist_ok=True)
+# ttspath=tts("I love Kokoro TTS",folder_path="./temp_audio")
 # print(ttspath)
