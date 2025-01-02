@@ -45,3 +45,14 @@ call myenv\\Scripts\\activate
 with open('run_echo_bot.bat', 'w') as bat_file:
     bat_file.write(bat_content_echo)
 print("The 'run_echo_bot.bat' file has been created.")
+
+# Batch content for running server.py
+bat_content_server = '''@echo off
+call myenv\\Scripts\\activate
+@python.exe server.py %*
+@pause
+'''
+# Save the content to run_server.bat
+with open('run_server.bat', 'w') as bat_file:
+    bat_file.write(bat_content_server)
+print("The 'run_server.bat' file has been created.")
