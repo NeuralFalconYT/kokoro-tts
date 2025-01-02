@@ -126,7 +126,7 @@ if __name__ == "__main__":
 # import shutil
 # import os
 # os.makedirs("temp_audio", exist_ok=True)
-# client = Client("http://127.0.0.1:8081/")
+# client = Client("http://127.0.0.1:8080/")
 # result = client.predict(
 # 		text="Hello!!",
 # 		voice_name="af_bella",
