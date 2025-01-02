@@ -126,12 +126,15 @@ My Python Version is 3.10.9
 
 [Click to Download Kokoro Sample TTS audio](https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/demo/HEARME.wav) <br>
 
-![app](https://github.com/user-attachments/assets/d98a4d72-00a6-43ff-94bf-977a7766c6d1)
 
 
 https://github.com/user-attachments/assets/1f4d8713-c59d-4b4d-aec4-e88e08c6dbe0
 
-![api](https://github.com/user-attachments/assets/43380ad3-da72-4680-856e-52c57c7faf40)
+
+
+https://github.com/user-attachments/assets/04047ed9-b2e6-4b2d-9dd2-0c4c87cec267
+
+
 
 
 #### Credit:  
