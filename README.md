@@ -65,7 +65,8 @@ My Python Version is 3.10.9
     ```
     This installs all the required Python libraries listed in the `requirements.txt` file.
 
-11. **Install eSpeak NG:**
+11. **Install eSpeak NG:**<br>
+      https://huggingface.co/hexgrad/Kokoro-82M/discussions/12#67742594fdeebf74f001ecfc
     - Download and install [eSpeak NG](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51).
     - Download espeak-ng-X64.msi and install in default windows location
     - Make sure you install the eSpeak NG in ```C:\Program Files\eSpeak NG``` folder , or later, you will need to set it the path manually in ```kokoro_copy.py```
@@ -76,7 +77,7 @@ My Python Version is 3.10.9
       ```
       This ensures that the TTS system can access eSpeak NG for speech synthesis.
 
-12. **Verify eSpeak NG Installation:**
+13. **Verify eSpeak NG Installation:**
     ```
     espeak-ng --version
     ```
