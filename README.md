@@ -1,5 +1,6 @@
 # Kokoro-TTS 
-**Note:** This is not the official repository. This tutorial explains how to run [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) on Windows and Google Colab. You may encounter some bugs while running the Gradio app.<br><br>
+**Note:** This is not the official repository. This tutorial explains how to run [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) on Windows and Google Colab. You may encounter some bugs while running the Gradio app.<br>
+It's a little bit messy, but you can visit [Hugging Face discussions](https://huggingface.co/hexgrad/Kokoro-82M/discussions) for an easy installation guide, even with ONNX Runtime.<br><br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/kokoro-tts/blob/main/kokoro_TTS.ipynb) <br>
 [![hfspace](https://img.shields.io/badge/🤗-Space%20demo-yellow)](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) <br>
 ### Windows Installation
