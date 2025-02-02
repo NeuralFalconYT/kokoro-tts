@@ -13,60 +13,64 @@ My Python Version is 3.10.9
 
 2. **Clone the Kokoro Model and Repository:**
    ```
-   git clone https://huggingface.co/hexgrad/Kokoro-82M
+   git clone https://huggingface.co/Remsky/kokoro-82m-mirror
    git clone https://github.com/NeuralFalconYT/kokoro-tts.git
    ```
    These commands clone the necessary model files and the TTS repository to your local machine.
 
 3. **Copy the TTS Files to the Model Directory:**
    ```
+   ren "kokoro-82m-mirror" "Kokoro-82M"
+   ```
+
+   ```
    robocopy "kokoro-tts" "Kokoro-82M" /e /r:0
    ```
    This command copies the content from the `kokoro-tts` directory to the `Kokoro-82M` directory.
 
-4. **Navigate to the Model Directory:**
+5. **Navigate to the Model Directory:**
    ```
    cd Kokoro-82M
    ```
    This changes the working directory to the model directory.
 
-5. **Run `make_bat.py` to Generate Batch Files:**
+6. **Run `make_bat.py` to Generate Batch Files:**
    ```
    python make_bat.py
    ```
    This script automatically creates the necessary `.bat` files (`run_app.bat`, `run_cli.bat`,`run_echo_bot.bat`,`get_new_voice.bat`) to simplify the process of running the application.
 
-6. **Create a Python Virtual Environment:**
+7. **Create a Python Virtual Environment:**
    ```
    python -m venv myenv
    ```
    This command creates a new Python virtual environment named `myenv` for isolating dependencies.
 
-7. **Activate the Virtual Environment:**
+8. **Activate the Virtual Environment:**
    ```
    myenv\Scripts\activate
    ```
    This activates the virtual environment, enabling you to install and run dependencies in an isolated environment.
 
-8. **Check CUDA Version:**
+9. **Check CUDA Version:**
    ```
    nvcc --version
    ```
    This checks the installed version of CUDA to ensure compatibility with PyTorch.
 
-9. **Install PyTorch:**
+10. **Install PyTorch:**
    Visit [PyTorch Get Started](https://pytorch.org/get-started/locally/) and install the version compatible with your CUDA setup. For example:
    ```
    pip install torch --index-url https://download.pytorch.org/whl/cu118
    ```
 
-10. **Install Required Dependencies:**
+11. **Install Required Dependencies:**
     ```
     pip install -r requirements.txt
     ```
     This installs all the required Python libraries listed in the `requirements.txt` file.
 
-11. **Install eSpeak NG:**<br>
+12. **Install eSpeak NG:**<br>
       https://huggingface.co/hexgrad/Kokoro-82M/discussions/12#67742594fdeebf74f001ecfc
     - Download and install [eSpeak NG](https://github.com/espeak-ng/espeak-ng/releases/tag/1.51).
     - Download espeak-ng-X64.msi and install in default windows location
